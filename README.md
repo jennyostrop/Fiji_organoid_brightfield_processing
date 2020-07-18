@@ -12,14 +12,12 @@ Output folders are saved as: PATH/Evos2/INPUT_FOLDER/OUTPUT_SUBFOLDER1 (e.g. PAT
 The script contains two parts that perform the following steps:
 
 Part1: Collections of z-layers and positions (optional stitching of 2/4 positions with 2 alternative acquisition orders for 4 positions) for each well, saves one stack per well. Files that do not follow the assumed EVOS2 rawdata file name pattern are ignored.
-Output1a: Folder with Z stacks (creates one subfolder per INPUT_SUBSUBFOLDER)
-Output1b: Folder with minimum intensity projection of each Z stack >> used for phenotype documentation and Input2 for Ilastik workflow (object classification workflow)
+- Output1a: Folder with Z stacks (creates one subfolder per INPUT_SUBSUBFOLDER)
+- Output1b: Folder with minimum intensity projection of each Z stack >> used for phenotype documentation and Input2 for Ilastik workflow (object classification workflow)
 
-Part2 requires output from part1 but can be rerun independently (comment/uncomment).
-
-Part2: Processing of created stacks, simple object segmentation based on e. Segmentation parameters such as threshold can be adjusted, optional manual ROI correction.
-Output2a: Folder with numeric output of object segmentation (.csv table for each well)
-Output2b: Folder with graphic output from object segmentation (PNG with ROI overlay for each well)
-Output2c: Folder with ROI .zip archives (creates one subfolder per INPUT_SUBSUBFOLDER)
-Output2d: Folder with summary projection of Sobel edge detection for each z-layer >> Input1 for Ilastik workflow (pixel classification workflow)
-Output2e, optional (uncomment/comment): Folder with stack of each segmented object +20pixel band
+Part2 requires output from part1 but can be rerun independently (comment/uncomment). Part2: Processing of created stacks, simple object segmentation based on e. Segmentation parameters such as threshold can be adjusted, optional manual ROI correction.
+- Output2a: Folder with numeric output of object segmentation (.csv table for each well)
+- Output2b: Folder with graphic output from object segmentation (PNG with ROI overlay for each well)
+- Output2c: Folder with ROI .zip archives (creates one subfolder per INPUT_SUBSUBFOLDER)
+- Output2d: Folder with summary projection of Sobel edge detection for each z-layer >> Input1 for Ilastik workflow (pixel classification workflow)
+- Output2e, optional (uncomment/comment): Folder with stack of each segmented object +20pixel band
