@@ -1,6 +1,6 @@
 # Fiji_organoid_brightfield_processing
 
-This repository holds the ImageJ/Fiji script used in the publication "A semi-automated intestinal organoid screening method demonstrates epigenetic control of epithelial maturation" (Ostrop et al. 2020).
+This repository holds the ImageJ/Fiji script used in the publication "A semi-automated intestinal organoid screening method demonstrates epigenetic control of epithelial maturation" (Ostrop et al. 2020). [Preprint on biorxiv](https://doi.org/10.1101/2020.07.23.217414)
 
 The script creates stacks per well/timepoint from the raw data files, performs a simple object segmentation, and creates the Input for the more accurate Ilastik segmentation workflow.
 
