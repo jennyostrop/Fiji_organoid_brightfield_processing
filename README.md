@@ -6,6 +6,7 @@ The script creates stacks per well/timepoint from the raw data files, performs a
 
 The script is originally developed to be used with output from an EVOS2 microscope (Thermo Fisher Scientific). Use with data from other microscopes will need adaption.
 EVOS2 file names follow the pattern: ".*_Plate_Format_Timepoint_Zposition_0_WellFieldChannel.TIF"
+
 The script assumes the following input file hierarchy: PATH/Evos2/INPUT_FOLDER/INPUT_SUBFOLDER1/INPUT_SUBSUBFOLDER1/Evos2_files (e.g. PATH/Evos2/experiment/plate/timepoint/Evos2_files)
 Output folders are saved as: PATH/Evos2/INPUT_FOLDER/OUTPUT_SUBFOLDER1 (e.g. PATH/Evos2/experiment/Output_stacks)
 
